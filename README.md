@@ -91,7 +91,7 @@ actions = {
 
 plan = find_plan(initial_state, goal_state, actions)
 print(plan)
-'''
+
 initial_state = {'A': 'Table', 'B': 'Table', 'C': 'Table'}
 goal_state = {'A': 'B', 'B': 'C', 'C': 'Table'}
 
@@ -103,7 +103,7 @@ actions = {
 
 plan = find_plan(initial_state, goal_state, actions)
 print(plan)
-'''
+
 initial_state = {'A': 'Table', 'B': 'Table'}
 goal_state = {'A': 'Table', 'B': 'Table'}
 
